@@ -22,7 +22,7 @@ const initialValues = {
 	number: '',
 };
 
-const ContactForm = ({ onAdd }) => {
+const ContactForm = () => {
 	const nameFieldId = useId();
 	const numberFieldId = useId();
 	
